@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org/"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Order Confirmation</title>
+</head>
+<body style="width: 100%;font-family:Helvetica;margin-left:20px;color:#1b1c1d;font-size:10px;" bgcolor="#ffffff">
+	<!-- <div style="text-align:center;width: 90%;"><b>Subscription Invoice</b></div> -->
+	
+	<div style="width:90%;margin:20px;font-family:Helvetica;">
+		<span style="float:right;color:#1b1c1d;font-size:18px;"><br/>Order Confirmation</span>
+		<div style="text-align:left">
+	                   <img src="https://agrimart-frontend.web.app/assets/img/vnf.png" alt="VNF - Everything Organic" width="70">
+	                    <p style="text-align:left;color:#4a4b4c;font-size:10px;">VNF - Everything Organic
+	                     
+		</div>
+		
+	</div>
+
+	<div style="width:90%;margin:20px;color:#4a4b4c;font-family:Helvetica;font-size:12px;">
+		<p><b>Dear <span th:text="${custName}"></span>,</b></p>
+		 
+		<p>
+			<span th:text="${message}"></span><br/>
+		</p>
+	</div>
+
+	<div id="sign-footer-section" style="width:90%;margin:20px;color:#4a4b4c;font-family:Helvetica;font-size:12px;">
+      		<p><b> Regards</b></p>
+            <p><span style="float:right;">email: support@vnf.com</span> </p>
+        </div>
+        
+</body>
+</html>
