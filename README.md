@@ -1,2 +1,2 @@
-# mayura_api
-MAYURA_FASHION
+# agrimart-api
+Agri Mart Webservices

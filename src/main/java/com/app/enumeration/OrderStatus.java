@@ -1,0 +1,7 @@
+package com.app.enumeration;
+
+public enum OrderStatus {
+
+	CONFIRMED,ALLOCATED,PROGRESS, SHIPPED, DELIVERED, REJECTED, COMPLETED, CANCELLED, ALLORDERS
+
+}
